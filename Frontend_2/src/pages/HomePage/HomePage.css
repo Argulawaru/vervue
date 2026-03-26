@@ -1,0 +1,67 @@
+.home-page {
+    padding: 16px;
+    max-width: 800px;
+    margin: 0 auto;
+    min-height: calc(100vh - 100px);
+    padding-bottom: 100px;
+  }
+  
+  .affirmation-section {
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 24px;
+  }
+  
+  .affirmation-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .affirmation-header h2 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .affirmation-header .date {
+    color: #aaa;
+    font-size: 14px;
+  }
+  
+  .affirmation-content {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 24px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+  }
+  
+  .affirmation-content p {
+    margin: 0;
+    font-size: 18px;
+    color: #ddd;
+  }
+  
+  .trends-section h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .trends-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 16px;
+  }
+
+  .upload-icon {
+    font-size: 48px;
+    margin-bottom: 16px;
+    color: #aaa;
+  }
+  
+  .button-icon {
+    margin-right: 8px;
+  }

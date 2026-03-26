@@ -1,0 +1,43 @@
+Bottoms
+011.Navy-Drawstring-Pants.jpg,Bottom Wear,Pants,Cotton,Blue,Casual
+042.Olive-Green-Chinos.jpg,Bottom Wear,Chinos,Cotton,Green,Casual
+053.Black-Joggers.jpg,Bottom Wear,Joggers,Cotton,Black,Casual
+074.Khaki-Trousers.jpg,Bottom Wear,Trousers,Cotton,Brown,Casual
+105.White-Slim-fit-Jeans.jpg,Bottom Wear,Jeans,Cotton,White,Casual
+126.Dark-Grey-Sweatpants.jpg,Bottom Wear,Sweat Pant,Woolen,Grey,Casual
+137.Dark-Blue-Denim-Jeans.jpg,Bottom Wear,Jeans,Cotton,Blue,Casual
+158.Black-Cargo-Pants.jpg,Bottom Wear,Cargo,Cotton,Black,Casual
+179.Black-Slim-fit-Trousers.jpg,Bottom Wear,Trousers,Mixed,Black,Casual
+1910.Grey-Wool-Trousers.jpg,Bottom Wear,Trousers,Woolen,Grey,Casual
+2211.Charcoal-Dress-Pants.jpg,Bottom Wear,Trousers,Mixed,Grey,Formal
+2312.Beige-Chinos.jpg,Bottom Wear,Chinos,Cotton,Brown,Casual
+2513.Navy-Running-Shorts.jpg,Bottom Wear,Shorts,Polyester,Blue,Casual
+2814.Light-Grey-Formal-Trousers.jpg,Bottom Wear,Trousers,Cotton,Grey,Formal
+2915.Blue-Jeans.jpg,Bottom Wear,Jeans,Cotton,Blue,Casual
+3116.Black-Ripped-Jeans.jpg,Bottom Wear,Jeans,Cotton,Black,Casual
+3417.White-Joggers.jpg,Bottom Wear,Joggers,Cotton,White,Casual
+3618.Olive-Cargo-Shorts.jpg,Bottom Wear,Cargo,Cotton,Green,Casual
+3819.White-Pleated-Trousers.jpg,Bottom Wear,Trousers,Cotton,White,Casual
+3920.Brown-Corduroy-Pants.jpg,Bottom Wear,Pants,Cotton,Brown,Casual
+
+Tops
+021.White-Linen-Shirt.jpg,Top Wear,Shirt,Linen,White,Casual
+032.Black-Crew-Neck-T-Shirt.jpg,Top Wear,T-shirt,Cotton,Black,Casual
+063.Light-Grey-Henley.jpg,Top Wear,Henley,Cotton,Grey,Casual
+084.Navy-Blue-Mandarin-Shirt.jpg,Top Wear,Shirt,Cotton,Blue,Casual
+095.Sky-Blue-Polo-Shirt.jpg,Top Wear,Polo,Cotton,Blue,Casual
+116.Beige-Hoodie.jpg,Top Wear,Hoodie,Woolen,Brown,Casual
+147.Red-Checkered-Flannel.jpg,Top Wear,Flannel,Cotton,Red,Casual
+168.White-Graphic-T-Shirt.jpg,Top Wear,T-shirt,Cotton,White,Casual
+189.Olive-Bomber-Jacket.jpg,Top Wear,Jacket,Polyester,Green,Casual
+2010.Maroon-Turtleneck.jpg,Top Wear,Turtle Neck,Woolen,Red,Casual
+2111.Black-Blazer.jpg,Top Wear,T-shirt,Mixed,Black,Casual
+2412.Pastel-Green-Short-Sleeve-Shirt.jpg,Top Wear,Shirt,Cotton,Green,Casual
+2613.White-Activewear-Tee.jpg,Top Wear,T-shirt,Polyester,White,Casual
+2714.Blue-Oxford-Shirt.jpg,Top Wear,Shirt,Cotton,Blue,Casual
+3015.Charcoal-Zip-Hoodie.jpg,Top Wear,Hoodie,Cotton,Grey,Casual
+3216.Denim-Jacket.jpg,Top Wear,Jacket,Cotton,Blue,Casual
+3317.Peach-Crew-Neck-Sweatshirt.jpg,Top Wear,Sweatshirt,Cotton,Pink,Casual
+3518.Grey-Linen-Shirt.jpg,Top Wear,Shirt,Linen,Grey,Casual
+3719.Navy-Printed-Shirt.jpg,Top Wear,Shirt,Cotton,Blue,Casual
+4020.Mustard-Long-Sleeve-T-Shirt.jpg,Top Wear,T-shirt,Cotton,Yellow,Casual

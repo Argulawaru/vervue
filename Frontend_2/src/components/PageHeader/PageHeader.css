@@ -1,0 +1,44 @@
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.app-title {
+  font-size: 28px;
+  margin: 0;
+  background: linear-gradient(to right, #9c27b0, #e91e63);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.user-button {
+  background: none;
+  border: none;
+  color: #aaa;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.user-button:hover {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.user-icon {
+  transition: transform 0.2s ease;
+}
+
+.user-button:hover .user-icon {
+  transform: scale(1.1);
+}

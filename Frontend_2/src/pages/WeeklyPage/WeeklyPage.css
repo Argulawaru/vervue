@@ -1,0 +1,87 @@
+.weekly-page {
+  padding: 16px;
+  max-width: 800px;
+  margin: 0 auto;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.outfits-container {
+  padding-bottom: 80px; /* Space for bottom navigation */
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.section-icon {
+  margin-right: 10px;
+  color: #9c27b0;
+  font-size: 20px;
+}
+
+.outfits-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+@media (min-width: 600px) {
+  .outfits-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.outfit-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 16px;
+  transition: transform 0.2s ease;
+}
+
+.outfit-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.outfit-day {
+  display: flex;
+  align-items: center;
+  margin: 0 0 12px 0;
+  font-size: 16px;
+  color: #d1c4e9;
+}
+
+.day-icon {
+  margin-right: 8px;
+  color: #e91e63;
+  font-size: 14px;
+}
+
+.outfit-items {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.outfit-item {
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.item-icon {
+  margin-right: 8px;
+  color: #9c27b0;
+  font-size: 12px;
+}
+

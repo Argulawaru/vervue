@@ -1,0 +1,237 @@
+.upload-page {
+  padding: 16px;
+  max-width: 800px;
+  margin: 0 auto;
+  min-height: calc(100vh - 100px);
+  padding-bottom: 100px;
+}
+
+.questionnaire-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.questionnaire-container h2 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.questionnaire-container p {
+  color: #aaa;
+  margin-bottom: 24px;
+}
+
+.upload-step {
+  margin: 24px 0;
+}
+
+#file-input {
+  display: none;
+}
+
+.upload-box {
+  display: block;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 2px dashed rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 40px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.upload-box:hover {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.upload-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #aaa;
+}
+
+.upload-icon {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.image-preview {
+  max-width: 100%;
+  max-height: 300px;
+  border-radius: 8px;
+}
+
+.options-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 12px;
+  margin: 24px 0;
+}
+
+.color-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  gap: 12px;
+  margin: 24px 0;
+}
+
+.option-button {
+  padding: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.05);
+  color: #aaa;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.option-button:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+}
+
+.option-button.selected {
+  background: rgba(156, 39, 176, 0.3);
+  color: white;
+  border-color: #9c27b0;
+}
+
+.color-option {
+  height: 80px;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.color-option:hover {
+  transform: scale(1.05);
+}
+
+.color-option.selected {
+  border-color: white;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.back-button {
+  background: none;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #aaa;
+  padding: 12px 24px;
+  border-radius: 24px;
+}
+
+.next-button {
+  background-color: #6a1b9a;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 24px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  opacity: 0.7;
+}
+
+.next-button.active {
+  opacity: 1;
+  background-color: #9c27b0;
+}
+
+.next-button:disabled {
+  cursor: not-allowed;
+}
+
+.progress-indicator {
+  text-align: center;
+  margin-top: 20px;
+  color: #aaa;
+  font-size: 14px;
+}
+
+.custom-color-container {
+  margin-top: 20px;
+  text-align: center;
+  animation: fadeIn 0.3s ease;
+}
+
+.custom-color-input {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.color-text-input {
+  flex: 1;
+  padding: 12px 16px;
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.05);
+  color: white;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.color-text-input:focus {
+  outline: none;
+  border-color: #9c27b0;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.color-submit-button {
+  padding: 12px 24px;
+  border-radius: 24px;
+  background: #6a1b9a;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 14px;
+}
+
+.color-submit-button:hover {
+  background: #9c27b0;
+}
+
+.color-submit-button:disabled {
+  background: rgba(106, 27, 154, 0.5);
+  cursor: not-allowed;
+}
+
+.color-hint {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.upload-button.active {
+  background-color: #4f46e5; /* Indigo-600 */
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 16px;
+}
+
+.upload-button.active:hover {
+  background-color: #4338ca; /* Indigo-700 */
+}

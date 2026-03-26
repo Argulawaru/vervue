@@ -1,0 +1,19 @@
+/* App.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.app-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1a1a2e 0%, #4a148c 50%, #1a1a2e 100%);
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  position: relative;
+}
+
+.main-content {
+  padding-bottom: 80px; /* Space for bottom navigation */
+}
